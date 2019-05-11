@@ -1,18 +1,17 @@
 import java.time.LocalTime;
 import java.util.Random;
 
-public class Ticket implements GenerateTicketID,GenerateRandomCheckInTime{
+public class Ticket implements GenerateTicketID{
 
     private int vehicleID;
     private SingletonParkedCarsList garage;
     private LocalTime checkInTime;
 
 
-    public Ticket(){
+    public Ticket(LocalTime checkInTime){
+        this.checkInTime = checkInTime;
         this.vehicleID = generateID();
         this.garage = SingletonParkedCarsList.INSTANCE;
-        this.checkInTime = generateCheckInTime();
-        garage.addCar(this);
     }
 
     @Override
@@ -22,17 +21,6 @@ public class Ticket implements GenerateTicketID,GenerateRandomCheckInTime{
        return newVehicleID;
     }
 
-    @Override
-    public LocalTime generateCheckInTime() {
-        Random random = new Random();
-        int hours = 0;
-        int minutes = 0;
-        hours = random.nextInt(11 + 1 - 7) + 7;
-
-        minutes = random.nextInt(59) + 1;
-        LocalTime newCheckInTime = LocalTime.of(hours, minutes);
-        return newCheckInTime;
-    }
 
     public int getVehicleID() {
         return vehicleID;

@@ -6,7 +6,7 @@ import java.util.List;
 public enum SingletonParkedCarsList {
     INSTANCE;
 
-    List<Ticket> tickets = new ArrayList();
+    static List<Ticket> tickets = new ArrayList();
 
 
     public void addCar(Ticket ticket){

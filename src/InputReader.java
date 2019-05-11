@@ -1,2 +1,3 @@
-public class InputReader {
+public abstract class InputReader {
+    abstract String readUserInput();
 }
