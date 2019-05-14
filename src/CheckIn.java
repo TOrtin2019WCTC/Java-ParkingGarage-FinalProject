@@ -4,15 +4,17 @@ import java.util.Random;
 public class CheckIn implements GenerateRandomCheckInTime {
 
   //
+    Ticket ticket;
 
-    public CheckIn(){
+    public CheckIn(FeeStrategy strategy){
         //garageList = SingletonParkedCarsList.INSTANCE;
-        Ticket ticket = new Ticket(generateCheckInTime());
+        Ticket ticket = new Ticket(generateCheckInTime(), strategy );
         //ticket.setCheckInTime(generateCheckInTime());
        GarageController.list.addCar(ticket);
        GarageController.garageData.totalCheckIns ++;
 
     }
+
     @Override
     public LocalTime generateCheckInTime() {
         Random random = new Random();

@@ -14,11 +14,17 @@ public class CheckOut implements GenerateRandomCheckOutTime {
                 this.ticket = GarageController.list.tickets.get(index);
                 this.ticket.setCheckOutTime(generateCheckOutTime());
 
-                NormalReceipt receipt = new NormalReceipt(this.ticket);
-                receipt.printReceipt();
+                if(this.ticket.getFeeStrategy() instanceof MinMaxTicketStrategy){
+                    NormalReceipt receipt = new NormalReceipt(this.ticket);
+                    receipt.printReceipt();
+                    GarageController.list.tickets.remove(this.ticket);
 
+                }else if(this.ticket.feeStrategy instanceof SpecialEventStrategy){
+                    SpecialEventReceipt receipt = new SpecialEventReceipt();
+                    receipt.printReceipt();
+                    GarageController.list.tickets.remove(this.ticket);
+                }
 
-                GarageController.list.tickets.remove(this.ticket);
             }else {
                 System.out.println("Perhaps you snuck in, there are no record of vehicles currently parked.");
                 System.out.println("Generating lost ticket receipt....");

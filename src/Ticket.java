@@ -7,11 +7,18 @@ public class Ticket implements GenerateTicketID, Serializable {
     private int vehicleID;
     private LocalTime checkInTime;
     private LocalTime checkOutTime;
+    FeeStrategy feeStrategy;
 
-    public Ticket(LocalTime checkInTime){
+    public Ticket(LocalTime checkInTime, FeeStrategy feeStrategy){
         this.vehicleID = generateID();
         this.checkInTime = checkInTime;
+        this.feeStrategy = feeStrategy;
+
+        System.out.println("Vehicle ID " + this.vehicleID + " Checked in");
+
     }
+
+    public Ticket(){};
 
 
     @Override
@@ -36,7 +43,12 @@ public class Ticket implements GenerateTicketID, Serializable {
         return checkOutTime;
     }
     public void setCheckInTime(LocalTime checkInTime){
+
         this.checkInTime = checkInTime;
+    }
+
+    public FeeStrategy getFeeStrategy(){
+        return this.feeStrategy;
     }
 
 }

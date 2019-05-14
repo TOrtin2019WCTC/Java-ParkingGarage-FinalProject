@@ -33,7 +33,7 @@ public class UISingleton {
         System.out.println("=>_");
     }
 
-    public void MenuTwo(){
+    public void MenuTwo(String name){
 
         System.out.println(garageName);
         System.out.println("=================");
