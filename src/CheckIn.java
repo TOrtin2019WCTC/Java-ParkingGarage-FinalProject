@@ -3,11 +3,14 @@ import java.util.Random;
 
 public class CheckIn implements GenerateRandomCheckInTime {
 
-    static SingletonParkedCarsList garageList;
+  //
 
     public CheckIn(){
-        garageList = SingletonParkedCarsList.INSTANCE;
-        garageList.addCar(new Ticket(generateCheckInTime()));
+        //garageList = SingletonParkedCarsList.INSTANCE;
+        Ticket ticket = new Ticket(generateCheckInTime());
+        //ticket.setCheckInTime(generateCheckInTime());
+       GarageController.list.addCar(ticket);
+       GarageController.garageData.totalCheckIns ++;
 
     }
     @Override

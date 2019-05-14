@@ -1,18 +1,18 @@
+import java.io.Serializable;
 import java.time.LocalTime;
 import java.util.Random;
 
-public class Ticket implements GenerateTicketID{
+public class Ticket implements GenerateTicketID, Serializable {
 
     private int vehicleID;
-    private SingletonParkedCarsList garage;
     private LocalTime checkInTime;
-
+    private LocalTime checkOutTime;
 
     public Ticket(LocalTime checkInTime){
-        this.checkInTime = checkInTime;
         this.vehicleID = generateID();
-        this.garage = SingletonParkedCarsList.INSTANCE;
+        this.checkInTime = checkInTime;
     }
+
 
     @Override
     public int generateID() {
@@ -21,12 +21,22 @@ public class Ticket implements GenerateTicketID{
        return newVehicleID;
     }
 
-
     public int getVehicleID() {
         return vehicleID;
     }
 
-    public LocalTime getCheckInTime() {
+    public void setCheckOutTime(LocalTime checkOutTime){
+        this.checkOutTime = checkOutTime;
+    }
+
+    public LocalTime getCheckInTime(){
         return checkInTime;
     }
+    public LocalTime getCheckOutTime(){
+        return checkOutTime;
+    }
+    public void setCheckInTime(LocalTime checkInTime){
+        this.checkInTime = checkInTime;
+    }
+
 }
