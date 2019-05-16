@@ -2,13 +2,12 @@ package ParkingApplication.receipt;
 
 import ParkingApplication.GarageController;
 import ParkingApplication.GarageData;
-import ParkingApplication.SingletonParkedCarsList;
 import ParkingApplication.Ticket;
 import ParkingApplication.strategy.LostTicketStrategy;
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
+
 
 import java.text.NumberFormat;
-import java.util.Random;
+
 
 public class LostTicketReceipt extends Receipt {
 

@@ -2,58 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d403d49-0338-4a11-b90c-71c2c62815f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ParkingApplication/factory/ReceiptFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingApplication/factory/ReceiptFactoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Best-Value-Parking-Garage-Data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Best-Value-Parking-Garage-Data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/CalculateFees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/CheckIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/CheckOut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/CurrencyFormatter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/FeeStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/GarageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/GarageData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/GenerateRandomCheckInTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/GenerateRandomCheckOutTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/GenerateTicketID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/KeyboardInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/LostTicketReceipt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/LostTicketStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/MinMaxTicketStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/NormalReceipt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/PricesAndFees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/Receipt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/SingletonParkedCarsList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/SpecialEventReceipt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/SpecialEventStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/TimeCalculation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/UISingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculateFees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/CalculateFees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CheckIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/CheckIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CheckOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/CheckOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CurrencyFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/CurrencyFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FeeStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/strategy/FeeStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GarageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/GarageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GarageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/GarageData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenerateRandomCheckInTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckInTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenerateRandomCheckOutTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckOutTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenerateTicketID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/GenerateTicketID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/InputReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KeyboardInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/KeyboardInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LostTicketReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LostTicketStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/strategy/LostTicketStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinMaxTicketStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/strategy/MinMaxTicketStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NormalReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/receipt/NormalReceipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PricesAndFees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/receipt/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingletonParkedCarsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/SingletonParkedCarsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpecialEventReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/receipt/SpecialEventReceipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpecialEventStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/strategy/SpecialEventStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/TimeCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UISingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/UISingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,14 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CheckOut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="94" column="67" selection-start-line="94" selection-start-column="67" selection-end-line="94" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-534">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -115,14 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -177,15 +130,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/UISingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -209,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/GenerateTicketID.java" />
         <option value="$PROJECT_DIR$/src/GenerateRandomCheckInTime.java" />
         <option value="$PROJECT_DIR$/src/InputReader.java" />
         <option value="$PROJECT_DIR$/src/KeyboardInput.java" />
@@ -255,15 +198,16 @@
         <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/SpecialEventReceipt.java" />
         <option value="$PROJECT_DIR$/src/ParkingApplication/factory/ReceiptFactoryImpl.java" />
         <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/NormalReceipt.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java" />
         <option value="$PROJECT_DIR$/src/ParkingApplication/GarageController.java" />
         <option value="$PROJECT_DIR$/src/ParkingApplication/CheckIn.java" />
         <option value="$PROJECT_DIR$/src/ParkingApplication/Ticket.java" />
         <option value="$PROJECT_DIR$/src/ParkingApplication/CheckOut.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="820" />
@@ -324,7 +268,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558044595453" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558047592183" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -406,14 +350,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="820" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="820" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22460657" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22460657" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -422,7 +367,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32692307" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32417583" />
-      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.3997253" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997253" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -465,12 +410,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ParkingApplication/GarageController.java</url>
           <line>60</line>
@@ -717,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ParkingApplication/InputReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -870,16 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/NormalReceipt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -927,11 +849,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CheckOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="94" column="67" selection-start-line="94" selection-start-column="67" selection-end-line="94" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-534">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
