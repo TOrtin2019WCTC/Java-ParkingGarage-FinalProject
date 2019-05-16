@@ -1,2 +1,2 @@
 TotalCheckOutFees,TotalCheckIns,TotalLostTicketFees,TotalLostTickets,TotalSpecialEventFees,TotalSpecialEventTickets,TotalFees
-30.0,9,75.0,3,40.0,2,145.0
+45.0,10,125.0,5,60.0,3,230.0
