@@ -11,10 +11,18 @@ import ParkingApplication.strategy.SpecialEventStrategy;
 import java.text.NumberFormat;
 import java.util.Random;
 
+/**
+ * class is subclass of Receipt superclass
+ * @author Tim Ortin
+ */
 public class SpecialEventReceipt extends Receipt {
 
     Ticket ticket;
 
+    /**
+     * Method creates instance of specialeventreceipt
+     * @param ticket Ticket object
+     */
     public SpecialEventReceipt(Ticket ticket){
         this.ticket = ticket;
 
@@ -25,7 +33,9 @@ public class SpecialEventReceipt extends Receipt {
 
     }
 
-
+    /**
+     * Method prints special event receipt to console
+     */
     @Override
     public void printReceipt() {
         NumberFormat numberFormatter = NumberFormat.getCurrencyInstance();

@@ -1,5 +1,9 @@
 package ParkingApplication;
 
+/**
+ * Class holds all final fee amounts
+ * @author Tim Ortin
+ */
 public class PricesAndFees {
     public static final double MINIMUM_FEE = 5.00; // 3 hour minimum
    public  static final double CHARGE_PER_ADDITIONAL_HOUR = 1.00;

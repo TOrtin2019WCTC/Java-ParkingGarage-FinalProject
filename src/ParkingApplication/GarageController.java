@@ -1,6 +1,6 @@
 package ParkingApplication;
 
-import ParkingApplication.receipt.LostTicketReceipt;
+
 import ParkingApplication.strategy.MinMaxTicketStrategy;
 import ParkingApplication.strategy.SpecialEventStrategy;
 
@@ -17,7 +17,6 @@ public class GarageController {
         System.out.println("Enter garage name:");
         garageName = reader.readUserInput();
         garageData.setFilePath("Best-Value-Parking-Garage-Data.txt");
-        //garageData.setFilePath(garageName.replace(" ", "-") + "-Data.txt");
         garageData.readDataFromFile();
         String userChoice;
 

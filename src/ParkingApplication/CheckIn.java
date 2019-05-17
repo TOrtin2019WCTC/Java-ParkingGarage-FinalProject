@@ -5,9 +5,17 @@ import ParkingApplication.strategy.FeeStrategy;
 import java.time.LocalTime;
 import java.util.Random;
 
+/**
+ * class handles actions taken when vehicle checks in to garage
+ * @author Tim Ortin
+ */
+
 public class CheckIn implements GenerateRandomCheckInTime {
 
-
+    /**
+     * Method creates instance of check in, creates new Ticket object
+     * @param strategy FeeStrategy
+     */
     public CheckIn(FeeStrategy strategy){
 
         Ticket ticket = new Ticket(generateCheckInTime(), strategy );
@@ -16,6 +24,10 @@ public class CheckIn implements GenerateRandomCheckInTime {
 
     }
 
+    /**
+     * Method generates random check in time
+     * @return LocalTime newCheckInTime
+     */
     @Override
     public LocalTime generateCheckInTime() {
         Random random = new Random();

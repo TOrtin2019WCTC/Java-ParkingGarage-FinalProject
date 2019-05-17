@@ -1,10 +1,10 @@
 package test;
 
 import ParkingApplication.Ticket;
-import ParkingApplication.receipt.LostTicketReceipt;
 import ParkingApplication.strategy.FeeStrategy;
 import ParkingApplication.strategy.LostTicketStrategy;
 import ParkingApplication.strategy.SpecialEventStrategy;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,73 +13,85 @@ import java.time.LocalTime;
 import static org.junit.Assert.*;
 
 public class TicketTest {
-    private int vehicleID;
-    private LocalTime checkInTime;
-    private LocalTime checkOutTime;
-    private FeeStrategy feeStrategy;
 
-
+    Ticket ticket;
     @Before
-    public void setUp(){
-        vehicleID = 2;
-        checkInTime = LocalTime.of(3,0);
-        checkOutTime = LocalTime.of(4,0);
-        feeStrategy = new LostTicketStrategy();
+    public void setUp() throws Exception {
+        ticket = new Ticket(LocalTime.of(3,0), new LostTicketStrategy());
+
     }
 
-
-
-    @Test
-    public void generateID() {
-        int newVehicleID = (int) (Math.random() * (1- 1) + 1);
-        assertEquals(1, newVehicleID);
+    @After
+    public void tearDown() throws Exception {
     }
 
     @Test
-    public void getVehicleID() {
-        int vehicleId = this.vehicleID;
+    public void TestGenerateIDGreaterThan0LessThanEqualTo500() {
+        int min = 0;
+        int max = 500;
 
-        assertEquals(2, vehicleId);
+        for (int i = 0; i < 10; i++){
+
+            assertTrue("Number less than zero", ticket.generateID() > min);
+            assertTrue("Number greater than 500", ticket.generateID() <= max);
+
+        }
+
     }
 
     @Test
-    public void setCheckOutTime() {
-        LocalTime newCheckOutTime = LocalTime.of(2,0);
-        this.checkOutTime = newCheckOutTime;
+    public void TestGetVehicleIDGreaterThan0LessThanEqualTo500() {
+        int min = 0;
+        int max = 500;
 
-        assertTrue(this.checkOutTime.equals(newCheckOutTime));
+        assertTrue("Number less than zero", ticket.getVehicleID() > min);
+        assertTrue("Number greater than 500", ticket.getVehicleID() <= max);
     }
 
     @Test
-    public void getCheckInTime() {
-        LocalTime newCheckInTIme = LocalTime.of(3,0);
-        assertEquals(this.checkInTime, newCheckInTIme);
+    public void TestSetCheckOutTimeTo4OClock() {
+        LocalTime testTime = LocalTime.of(2,0);
+        ticket.setCheckOutTime(testTime);
+
+        assertEquals(testTime,ticket.getCheckOutTime());
+
     }
 
     @Test
-    public void getCheckOutTime() {
-        LocalTime test = LocalTime.of(4,0);
-
-        assertEquals(this.checkOutTime, test);
+    public void TestGetCheckInTimeEquals3OClock() {
+        LocalTime time = LocalTime.of(3,0);
+        assertEquals(time, ticket.getCheckInTime());
     }
 
     @Test
-    public void setCheckInTime() {
-       LocalTime newCheckInTime = LocalTime.of(6,0);
-       this.checkInTime = newCheckInTime;
+    public void TestGetCheckOutTimeOf5OClock() {
+        ticket.setCheckOutTime(LocalTime.of(5,0));
 
-        assertEquals(this.checkInTime, checkInTime);
+        LocalTime time = LocalTime.of(5,0);
+       assertEquals(time, ticket.getCheckOutTime());
     }
 
     @Test
-    public void getFeeStrategy() {
-        assertTrue(this.feeStrategy instanceof LostTicketStrategy);
+    public void TestSetCheckInTimeTo6OClock() {
+        ticket.setCheckInTime(LocalTime.of(6,0));
+
+        LocalTime time = LocalTime.of(6,0);
+
+        assertEquals(time, ticket.getCheckInTime());
+
     }
 
     @Test
-    public void setFeeStrategy() {
-        this.feeStrategy = new SpecialEventStrategy();
-        assertTrue(this.feeStrategy instanceof SpecialEventStrategy);
+    public void TestGetFeeStrategyIsLostTicketStrategy() {
+
+        assertTrue("fee strategy is lost ticket strategy", ticket.getFeeStrategy() instanceof LostTicketStrategy);
+
     }
 
+    @Test
+    public void TestSetFeeStrategyToSpecialEventStrategy() {
+        ticket.setFeeStrategy(new SpecialEventStrategy());
+
+        assertTrue(ticket.getFeeStrategy() instanceof SpecialEventStrategy);
+    }
 }

@@ -10,14 +10,26 @@ import java.time.Duration;
 import java.time.LocalTime;
 import java.util.Random;
 
+/**
+ * Class handles all operations for vehicle check out and implements GenerateRandomCheckOutTime Interface
+ * @author Tim Ortin
+ */
 public class CheckOut implements GenerateRandomCheckOutTime {
 
     Ticket ticket;
     ReceiptFactory factory = new ReceiptFactoryImpl();
 
+    /**
+     * Method creates instance of CheckOut
+     */
     public CheckOut(){
 
     }
+
+    /**
+     * Implemented method that generates random check out time
+     * @return LocalTime returns a check out time
+     */
     @Override
     public LocalTime generateCheckOutTime() {
         LocalTime checkOutTime = null;
@@ -33,7 +45,11 @@ public class CheckOut implements GenerateRandomCheckOutTime {
         return checkOutTime;
     }
 
-
+    /**
+     * Method calculates duration between vehicle check in and check out
+     * @param ticket Ticket object
+     * @return long returns total number of hours parked
+     */
     public static long calculateHours(Ticket ticket) {
         long hours = 0;
 
@@ -42,7 +58,11 @@ public class CheckOut implements GenerateRandomCheckOutTime {
         return hours;
     }
 
-
+    /**
+     * Method returns leftover minutes between vehicle check in and check out
+     * @param ticket Ticket object
+     * @return long returns any remaining minutes less than 60
+     */
    public static long calculateMinutes(Ticket ticket) {
         long minutes = 0;
 
@@ -55,6 +75,10 @@ public class CheckOut implements GenerateRandomCheckOutTime {
     }
 
 
+    /**
+     * Method gets random ticket out of the parked cars array list and uses the fee strategy factory to generate a receipt
+     * if ticket is not lost
+     */
     public void checkOut(){
         Receipt receipt;
         Random random = new Random();
@@ -81,6 +105,9 @@ public class CheckOut implements GenerateRandomCheckOutTime {
         }
     }
 
+    /**
+     * method gets random ticket out of parked cars array list, generates receipt if the lost ticket option is selected
+     */
     public void lostTicket(){
         Receipt receipt;
         Random random = new Random();

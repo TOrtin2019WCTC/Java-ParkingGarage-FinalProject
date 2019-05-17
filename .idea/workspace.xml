@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d403d49-0338-4a11-b90c-71c2c62815f6" name="Default Changelist" comment="" />
+    <list default="true" id="8d403d49-0338-4a11-b90c-71c2c62815f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/ParkingApplication/GarageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/ParkingApplication/GarageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/test/TicketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tortin-u3-ParkingApp/test/TicketTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/CalculateFees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/CalculateFees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/CheckIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/CheckIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/CheckOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/CheckOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/CurrencyFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/CurrencyFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/GarageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/GarageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/GarageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/GarageData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckInTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckInTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckOutTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckOutTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/GenerateTicketID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/GenerateTicketID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/InputReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/KeyboardInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/KeyboardInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/SingletonParkedCarsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/SingletonParkedCarsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/UISingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/UISingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/receipt/NormalReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/receipt/NormalReceipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/receipt/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/receipt/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/receipt/SpecialEventReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/receipt/SpecialEventReceipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/strategy/FeeStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/strategy/FeeStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/strategy/LostTicketStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/strategy/LostTicketStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/strategy/MinMaxTicketStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/strategy/MinMaxTicketStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/strategy/SpecialEventStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/strategy/SpecialEventStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TicketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TicketTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,10 +41,41 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/MinMaxTicketStrategyTest.java">
+        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckInTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GenerateTicketID.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/InputReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/KeyboardInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -23,67 +83,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/SpecialEventStrategyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CurrencyFormatter.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CalculateFees.java">
+        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/SingletonParkedCarsList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CheckOut.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="62" column="87" lean-forward="true" selection-start-line="62" selection-start-column="87" selection-end-line="62" selection-end-column="87" />
+            <state relative-caret-position="265">
+              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/strategy/SpecialEventStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GarageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,28 +112,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParkingApplication/Ticket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="554">
+              <caret line="96" column="78" selection-start-line="96" selection-start-column="78" selection-end-line="96" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-                <element signature="e#1216#1217#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1521#1522#0" expanded="true" />
+                <element signature="e#1561#1562#0" expanded="true" />
+                <element signature="e#1595#1596#0" expanded="true" />
+                <element signature="e#1635#1636#0" expanded="true" />
+                <element signature="e#1670#1671#0" expanded="true" />
+                <element signature="e#1814#1815#0" expanded="true" />
+                <element signature="e#1853#1854#0" expanded="true" />
+                <element signature="e#2670#2671#0" expanded="true" />
+                <element signature="e#2716#2717#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CheckIn.java">
+        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/TimeCalculation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CheckOut.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1227">
+              <caret line="13" column="105" selection-start-line="13" selection-start-column="105" selection-end-line="13" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ParkingApplication/UISingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -125,8 +170,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -142,18 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FeeStrategyFactory/FeeStrategyImplementation.java" />
-        <option value="$PROJECT_DIR$/src/FeeStrategyFactory/LostTicketFee.java" />
-        <option value="$PROJECT_DIR$/src/FeeStrategyFactory/FeeStrategy.java" />
-        <option value="$PROJECT_DIR$/src/LostTicketFee.java" />
-        <option value="$PROJECT_DIR$/src/GenerateRandomCheckOutTime.java" />
-        <option value="$PROJECT_DIR$/src/SpecialEventTicket.java" />
-        <option value="$PROJECT_DIR$/src/SpecialEventFeeStrategy.java" />
-        <option value="$PROJECT_DIR$/src/Receipt.java" />
-        <option value="$PROJECT_DIR$/src/FeeStrategy.java" />
-        <option value="$PROJECT_DIR$/src/LostTicketStrategy.java" />
-        <option value="$PROJECT_DIR$/src/NormalTicket.java" />
-        <option value="$PROJECT_DIR$/src/HourCalculation.java" />
         <option value="$PROJECT_DIR$/src/TimeCalculation.java" />
         <option value="$PROJECT_DIR$/src/CurrencyFormatter.java" />
         <option value="$PROJECT_DIR$/src/PricesAndFees.java" />
@@ -170,29 +203,41 @@
         <option value="$PROJECT_DIR$/src/Ticket.java" />
         <option value="$PROJECT_DIR$/src/LostTicketReceipt.java" />
         <option value="$PROJECT_DIR$/src/GarageController.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/SingletonParkedCarsList.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/GarageData.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/Receipt.java" />
         <option value="$PROJECT_DIR$/src/ParkingApplication/factory/ReceiptFactory.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/SpecialEventReceipt.java" />
         <option value="$PROJECT_DIR$/src/ParkingApplication/factory/ReceiptFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/NormalReceipt.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/GarageController.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/Ticket.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java" />
         <option value="$PROJECT_DIR$/src/ParkingApplication/UISingletonTest.java" />
         <option value="$PROJECT_DIR$/src/ParkingApplication/TicketTest.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/CalculateFees.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/strategy/MinMaxTicketStrategy.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/CheckIn.java" />
-        <option value="$PROJECT_DIR$/src/test/TicketTest.java" />
         <option value="$PROJECT_DIR$/src/test/LostTicketStrategyTest.java" />
         <option value="$PROJECT_DIR$/src/test/CheckOutTest.java" />
         <option value="$PROJECT_DIR$/src/test/GarageDataTest.java" />
         <option value="$PROJECT_DIR$/src/test/SpecialEventStrategyTest.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java" />
-        <option value="$PROJECT_DIR$/src/ParkingApplication/CheckOut.java" />
         <option value="$PROJECT_DIR$/src/test/MinMaxTicketStrategyTest.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/GarageController.java" />
+        <option value="$PROJECT_DIR$/src/test/TicketTest.java" />
+        <option value="$PROJECT_DIR$/src/test/TestSuite.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/NormalReceipt.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/Receipt.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/receipt/SpecialEventReceipt.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/strategy/FeeStrategy.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/strategy/LostTicketStrategy.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/strategy/MinMaxTicketStrategy.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/strategy/SpecialEventStrategy.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/CalculateFees.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/CheckIn.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/CurrencyFormatter.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/GarageData.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckOutTime.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckInTime.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/GenerateTicketID.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/InputReader.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/KeyboardInput.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/SingletonParkedCarsList.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/TimeCalculation.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/CheckOut.java" />
+        <option value="$PROJECT_DIR$/src/ParkingApplication/UISingleton.java" />
       </list>
     </option>
   </component>
@@ -260,7 +305,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558059956303" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558105375090" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -290,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MinMaxTicketStrategyTest.TestPerHourCharged">
+  <component name="RunManager" selected="JUnit.TestSuite">
     <configuration name="GarageController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ParkingApp.GarageController" />
       <module name="tortin-u3-ParkingApp" />
@@ -298,7 +343,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckOutTest.calculateMinutes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tortin-u3-ParkingApp" />
       <extension name="coverage">
         <pattern>
@@ -307,14 +352,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.CheckOutTest" />
-      <option name="METHOD_NAME" value="calculateMinutes" />
+      <option name="MAIN_CLASS_NAME" value="test.TestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketTest.TestGetCheckInTimeEquals3OClock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tortin-u3-ParkingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TicketTest" />
+      <option name="METHOD_NAME" value="TestGetCheckInTimeEquals3OClock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GarageDataTest.TestGetTotalCheckInsEquals1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicketTest.TestGetFeeStrategyIsLostTicketStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tortin-u3-ParkingApp" />
       <extension name="coverage">
         <pattern>
@@ -323,14 +383,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.GarageDataTest" />
-      <option name="METHOD_NAME" value="TestGetTotalCheckInsEquals1" />
+      <option name="MAIN_CLASS_NAME" value="test.TicketTest" />
+      <option name="METHOD_NAME" value="TestGetFeeStrategyIsLostTicketStrategy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxTicketStrategyTest.TestMaximumFeeCharged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicketTest.TestSetCheckInTimeTo6OClock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tortin-u3-ParkingApp" />
       <extension name="coverage">
         <pattern>
@@ -339,14 +399,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MinMaxTicketStrategyTest" />
-      <option name="METHOD_NAME" value="TestMaximumFeeCharged" />
+      <option name="MAIN_CLASS_NAME" value="test.TicketTest" />
+      <option name="METHOD_NAME" value="TestSetCheckInTimeTo6OClock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxTicketStrategyTest.TestMinimumFeeCharged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicketTest.TestSetFeeStrategyToSpecialEventStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tortin-u3-ParkingApp" />
       <extension name="coverage">
         <pattern>
@@ -355,24 +415,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MinMaxTicketStrategyTest" />
-      <option name="METHOD_NAME" value="TestMinimumFeeCharged" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinMaxTicketStrategyTest.TestPerHourCharged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tortin-u3-ParkingApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MinMaxTicketStrategyTest" />
-      <option name="METHOD_NAME" value="TestPerHourCharged" />
+      <option name="MAIN_CLASS_NAME" value="test.TicketTest" />
+      <option name="METHOD_NAME" value="TestSetFeeStrategyToSpecialEventStrategy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -380,11 +424,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MinMaxTicketStrategyTest.TestPerHourCharged" />
-        <item itemvalue="JUnit.MinMaxTicketStrategyTest.TestMaximumFeeCharged" />
-        <item itemvalue="JUnit.MinMaxTicketStrategyTest.TestMinimumFeeCharged" />
-        <item itemvalue="JUnit.GarageDataTest.TestGetTotalCheckInsEquals1" />
-        <item itemvalue="JUnit.CheckOutTest.calculateMinutes" />
+        <item itemvalue="JUnit.TestSuite" />
+        <item itemvalue="JUnit.TicketTest.TestGetFeeStrategyIsLostTicketStrategy" />
+        <item itemvalue="JUnit.TicketTest.TestSetFeeStrategyToSpecialEventStrategy" />
+        <item itemvalue="JUnit.TicketTest.TestSetCheckInTimeTo6OClock" />
+        <item itemvalue="JUnit.TicketTest.TestGetCheckInTimeEquals3OClock" />
       </list>
     </recent_temporary>
   </component>
@@ -402,35 +446,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MinMaxTicketStrategyTest_TestPerHourCharged - 2019.05.16 at 21h 16m 12s.xml">
-      <configuration name="MinMaxTicketStrategyTest.TestPerHourCharged" configurationId="JUnit" />
+    <history-entry file="TicketTest_TestGenerateID - 2019.05.17 at 08h 09m 37s.xml">
+      <configuration name="TicketTest.TestGenerateID" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinMaxTicketStrategyTest_TestPerHourCharged - 2019.05.16 at 21h 16m 26s.xml">
-      <configuration name="MinMaxTicketStrategyTest.TestPerHourCharged" configurationId="JUnit" />
+    <history-entry file="TicketTest_TestSetCheckOutTimeTo4OClock - 2019.05.17 at 08h 14m 31s.xml">
+      <configuration name="TicketTest.TestSetCheckOutTimeTo4OClock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinMaxTicketStrategyTest_TestPerHourCharged - 2019.05.16 at 21h 20m 42s.xml">
-      <configuration name="MinMaxTicketStrategyTest.TestPerHourCharged" configurationId="JUnit" />
+    <history-entry file="TicketTest_TestGetCheckInTimeEquals3OClock - 2019.05.17 at 08h 15m 47s.xml">
+      <configuration name="TicketTest.TestGetCheckInTimeEquals3OClock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinMaxTicketStrategyTest_TestPerHourCharged - 2019.05.16 at 21h 22m 22s.xml">
-      <configuration name="MinMaxTicketStrategyTest.TestPerHourCharged" configurationId="JUnit" />
+    <history-entry file="TicketTest_TestSetCheckInTimeTo6OClock - 2019.05.17 at 08h 23m 25s.xml">
+      <configuration name="TicketTest.TestSetCheckInTimeTo6OClock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinMaxTicketStrategyTest_TestPerHourCharged - 2019.05.16 at 21h 22m 34s.xml">
-      <configuration name="MinMaxTicketStrategyTest.TestPerHourCharged" configurationId="JUnit" />
+    <history-entry file="TicketTest_TestGetFeeStrategyIsLostTicketStrategy - 2019.05.17 at 08h 25m 48s.xml">
+      <configuration name="TicketTest.TestGetFeeStrategyIsLostTicketStrategy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinMaxTicketStrategyTest_TestPerHourCharged - 2019.05.16 at 21h 23m 06s.xml">
-      <configuration name="MinMaxTicketStrategyTest.TestPerHourCharged" configurationId="JUnit" />
+    <history-entry file="TicketTest_TestGetFeeStrategyIsLostTicketStrategy - 2019.05.17 at 08h 31m 42s.xml">
+      <configuration name="TicketTest.TestGetFeeStrategyIsLostTicketStrategy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinMaxTicketStrategyTest_TestPerHourCharged - 2019.05.16 at 21h 24m 22s.xml">
-      <configuration name="MinMaxTicketStrategyTest.TestPerHourCharged" configurationId="JUnit" />
+    <history-entry file="TicketTest_TestSetFeeStrategyToSpecialEventStrategy - 2019.05.17 at 08h 35m 46s.xml">
+      <configuration name="TicketTest.TestSetFeeStrategyToSpecialEventStrategy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinMaxTicketStrategyTest_TestPerHourCharged - 2019.05.16 at 21h 25m 13s.xml">
-      <configuration name="MinMaxTicketStrategyTest.TestPerHourCharged" configurationId="JUnit" />
+    <history-entry file="TicketTest_TestGetFeeStrategyIsLostTicketStrategy - 2019.05.17 at 08h 35m 55s.xml">
+      <configuration name="TicketTest.TestGetFeeStrategyIsLostTicketStrategy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinMaxTicketStrategyTest_TestPerHourCharged - 2019.05.16 at 21h 25m 28s.xml">
-      <configuration name="MinMaxTicketStrategyTest.TestPerHourCharged" configurationId="JUnit" />
+    <history-entry file="TestSuite - 2019.05.17 at 08h 38m 27s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinMaxTicketStrategyTest_TestPerHourCharged - 2019.05.16 at 21h 25m 51s.xml">
-      <configuration name="MinMaxTicketStrategyTest.TestPerHourCharged" configurationId="JUnit" />
+    <history-entry file="TestSuite - 2019.05.17 at 08h 38m 50s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -492,17 +536,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/NormalTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -510,13 +543,6 @@
           <folding>
             <element signature="e#2601#2602#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/TimeCalculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -633,34 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckOutTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GenerateTicketID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/InputReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/KeyboardInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Best-Value-Parking-Garage-Data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -678,30 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/SingletonParkedCarsList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ParkingApplication/UISingletonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/UISingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -715,50 +693,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckInTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ParkingApplication/factory/ReceiptFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/strategy/FeeStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GarageData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1168">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -770,28 +710,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/Receipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/LostTicketStrategyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/NormalReceipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,86 +731,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/strategy/LostTicketStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/strategy/MinMaxTicketStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/SpecialEventReceipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CheckIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TicketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/SpecialEventStrategyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CurrencyFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CalculateFees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
@@ -900,30 +745,280 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CheckOut.java">
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GarageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="62" column="87" lean-forward="true" selection-start-line="62" selection-start-column="87" selection-end-line="62" selection-end-column="87" />
+        <state relative-caret-position="270">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TicketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/NormalReceipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/SpecialEventReceipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/Receipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/strategy/FeeStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/strategy/LostTicketStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/strategy/MinMaxTicketStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ParkingApplication/strategy/SpecialEventStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GarageController.java">
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CalculateFees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="135">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CheckIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CurrencyFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GarageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="208" column="50" selection-start-line="208" selection-start-column="50" selection-end-line="208" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
+            <element signature="e#2204#2205#0" expanded="true" />
+            <element signature="e#2357#2358#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2583#2584#0" expanded="true" />
+            <element signature="e#2631#2632#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#3021#3022#0" expanded="true" />
+            <element signature="e#3061#3062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckOutTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GenerateRandomCheckInTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/GenerateTicketID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/InputReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/KeyboardInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/SingletonParkedCarsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="96" column="78" selection-start-line="96" selection-start-column="78" selection-end-line="96" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#2670#2671#0" expanded="true" />
+            <element signature="e#2716#2717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/CheckOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1227">
+          <caret line="13" column="105" selection-start-line="13" selection-start-column="105" selection-end-line="13" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/TimeCalculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingApplication/UISingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
         </state>
       </provider>
     </entry>

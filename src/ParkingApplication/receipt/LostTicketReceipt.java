@@ -8,11 +8,21 @@ import ParkingApplication.strategy.LostTicketStrategy;
 
 import java.text.NumberFormat;
 
+/**
+ *
+ * class is subclass of Receipt superclass and creates lost ticket receipt
+ *
+ * @author Tim Ortin
+ */
 
 public class LostTicketReceipt extends Receipt {
 
     Ticket ticket;
 
+    /**
+     * Method creates instance of LostTicketReceipt
+     * @param ticket Ticket object
+     */
     public LostTicketReceipt(Ticket ticket){
 
         this.ticket = ticket;
@@ -23,8 +33,9 @@ public class LostTicketReceipt extends Receipt {
         }
 
 
-
-
+    /**
+     * Method prints lost ticket receipt for a ticket with no check-in to console
+     */
     public void printNoCheckInLostTicketReceipt(){
         NumberFormat numberFormatter = NumberFormat.getCurrencyInstance();
         System.out.println("\n\n\t" + GarageController.garageName);
@@ -35,6 +46,9 @@ public class LostTicketReceipt extends Receipt {
 
     }
 
+    /**
+     * method prints lost ticket receipt to console
+     */
     @Override
     public void printReceipt() {
         if(ticket == null){

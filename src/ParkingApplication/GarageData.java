@@ -7,6 +7,11 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Singleton enum stores garage activity to date totals and calculates them.
+ * also writes the totals to csv file
+ * @author Tim Ortin
+ */
 public enum GarageData {
     INSTANCE;
 
@@ -17,48 +22,104 @@ public enum GarageData {
     int totalSpecialEventTickets = 0;
     double totalSpecialEventFees = 0;
 
+    /**
+     * method returns total number of check ins
+     * @return int
+     */
     public int getTotalCheckIns() {
         return totalCheckIns;
     }
+
+    /**
+     * method increments total number of check ins by 1
+     */
     public void addTotalCheckIns(){
         totalCheckIns++;
     }
 
+    /**
+     * method returns total check out fees
+     * @return double
+     */
     public double getTotalCheckOutFees() {
         return totalCheckOutFees;
     }
+
+    /**
+     * method adds to total check out fees
+     * @param fee double amount to be added
+     */
     public void addTotalCheckOutFees(double fee){
         totalCheckOutFees+= fee;
     }
 
+    /**
+     * method returns total lost tickets
+     * @return int
+     */
     public int getTotalLostTickets() {
         return totalLostTickets;
     }
+
+    /**
+     * method increments total number of lost tickets by 1
+     */
     public void addTotalLostTickets(){
         totalLostTickets++;
     }
 
+    /**
+     * method returns the total lost ticket fees
+     * @return double
+     */
+
     public double getTotalLostTicketFees() {
         return totalLostTicketFees;
     }
+
+    /**
+     * method adds to total lost ticket fees
+     * @param fee double amount to be added
+     */
     public void addTotalLostTicketFees(double fee){
         totalLostTicketFees+= fee;
     }
 
+    /**
+     * returns the total fees
+     * @return double
+     */
     public double getTotalFees() {
         return totalCheckOutFees + totalLostTicketFees + totalSpecialEventFees;
     }
 
+    /**
+     * method returns total number of special event tickets
+     * @return int
+     */
     public int getTotalSpecialEventTickets() {
         return totalSpecialEventTickets;
     }
+
+    /**
+     * method adds to total special event fees
+     * @param fee double amount of to be added
+     */
     public void addTotalSpecialEventFees(double fee){
         totalSpecialEventFees += fee;
     }
+
+    /**
+     * method increments total special event tickets by 1
+     */
     public void addTotalSpecialEventTickets(){
         totalSpecialEventTickets++;
     }
 
+    /**
+     * method returns total of special event fees
+     * @return double
+     */
     public double getTotalSpecialEventFees() {
         return totalSpecialEventFees;
     }
@@ -67,11 +128,18 @@ public enum GarageData {
 
     List<Double> garageData = new ArrayList<>();
 
-
+    /**
+     * method sets the location of file to be written
+     * @param filePath String name of file
+     */
     public void setFilePath(String filePath){
         this.filePath = filePath;
     }
 
+    /**
+     * method formats a String to be written to file
+     * @return String string of totals to be written to file
+     */
     public String fileOutputString() {
         return "TotalCheckOutFees,TotalCheckIns,TotalLostTicketFees,TotalLostTickets,TotalSpecialEventFees,TotalSpecialEvent" +
                 "Tickets,TotalFees\n" +
@@ -80,6 +148,10 @@ public enum GarageData {
                 getTotalFees();
     }
 
+    /**
+     * writes the garage totals to file
+     * @param s String lines to write to file
+     */
     public void writeDataToFile(String s) {
         BufferedWriter writer;
 
@@ -97,6 +169,9 @@ public enum GarageData {
 
     }
 
+    /**
+     * method reads garage totals in from file and sets the values of class properties
+     */
     public void readDataFromFile() {
 
         String path = filePath;
@@ -130,6 +205,9 @@ public enum GarageData {
 
     }
 
+    /**
+     * method generates report of activity totals when the garage is closed
+     */
     public void generateReport(){
 
         System.out.println("\n\n\tBest Value Parking Garage");

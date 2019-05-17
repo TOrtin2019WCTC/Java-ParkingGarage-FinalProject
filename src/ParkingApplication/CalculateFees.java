@@ -1,7 +1,14 @@
 package ParkingApplication;
 
+/**
+ * abstract class holds one static calculation method
+ */
 public abstract class CalculateFees {
-
+    /**
+     * Method calculates the fees for MinMax receipts
+     * @param ticket Ticket object
+     * @return double fee to be charged for ticket check out
+     */
    public static double calculateFees(Ticket ticket){
        double fee = 0;
        long hours;
