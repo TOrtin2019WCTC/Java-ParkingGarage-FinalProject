@@ -25,7 +25,6 @@ public abstract class CalculateFees {
            e.printStackTrace();
        }
 
-       // ParkingApplication.GarageData.totalCheckOutFees += fee;
 
        return fee;
    }
