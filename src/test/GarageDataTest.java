@@ -18,7 +18,7 @@ public class GarageDataTest {
 
     @Before
     public void setUp(){
-        GarageData garageData = GarageData.INSTANCE;
+        //GarageData garageData = GarageData.INSTANCE;
 
         totalCheckIns = 1;
         totalCheckOutFees = 1.00;
@@ -30,7 +30,9 @@ public class GarageDataTest {
 
     @Test
     public void TestGetTotalCheckInsEquals1() {
-        assertEquals(1, totalCheckIns);
+        GarageData.INSTANCE.addTotalCheckIns();
+
+        assertEquals(1, GarageData.INSTANCE.getTotalCheckIns());
     }
 
     @Test
@@ -42,14 +44,14 @@ public class GarageDataTest {
 
     @Test
     public void getTotalCheckOutFees() {
-        assertEquals(1.00, totalCheckOutFees,1.00);
+        assertEquals(1.00, totalCheckOutFees,0);
     }
 
     @Test
     public void addTotalCheckOutFees() {
         totalCheckOutFees += 1.00;
 
-        assertEquals(2.00, totalCheckOutFees,2.00);
+        assertEquals(2.00, totalCheckOutFees,0);
     }
 
     @Test
@@ -66,19 +68,19 @@ public class GarageDataTest {
 
     @Test
     public void getTotalLostTicketFees() {
-        assertEquals(1.00,totalLostTicketFees,1.00);
+        assertEquals(1.00,totalLostTicketFees,0);
     }
 
     @Test
     public void addTotalLostTicketFees() {
         totalLostTicketFees += 1.00;
 
-        assertEquals(2.00, totalLostTicketFees, 2.00);
+        assertEquals(2.00, totalLostTicketFees, 0);
     }
 
     @Test
     public void getTotalFees() {
-        assertEquals(3.00, totalLostTicketFees + totalSpecialEventFees + totalCheckOutFees, 3.00);
+        assertEquals(3.00, totalLostTicketFees + totalSpecialEventFees + totalCheckOutFees, 0);
     }
 
     @Test
@@ -90,7 +92,7 @@ public class GarageDataTest {
     public void addTotalSpecialEventFees() {
         totalSpecialEventFees += 1.00;
 
-        assertEquals(2.00, totalSpecialEventFees, 2.00);
+        assertEquals(2.00, totalSpecialEventFees, 0);
     }
 
     @Test
@@ -102,7 +104,7 @@ public class GarageDataTest {
 
     @Test
     public void getTotalSpecialEventFees() {
-        assertEquals(1.00, totalSpecialEventFees,1.00);
+        assertEquals(1.00, totalSpecialEventFees,0);
     }
 
 
