@@ -48,7 +48,7 @@ public class CheckOut implements GenerateRandomCheckOutTime {
 
         minutes = Duration.between(ticket.getCheckInTime(), ticket.getCheckOutTime()).toMinutes();
 
-        while (minutes > 60) {
+        while (minutes >= 60) {
             minutes -= 60;
         }
         return minutes;

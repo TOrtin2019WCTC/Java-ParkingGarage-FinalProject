@@ -47,8 +47,8 @@ public class MinMaxTicketStrategyTest {
 
     @Test
     public void TestPerHourCharged(){
-        ticket.setCheckOutTime(LocalTime.of(5,0));
+        ticket.setCheckOutTime(LocalTime.of(10,0));
 
-        assertEquals( 7 ,CalculateFees.calculateFees(ticket), 0);
+        assertEquals( 11 ,CalculateFees.calculateFees(ticket), 0);
     }
 }
