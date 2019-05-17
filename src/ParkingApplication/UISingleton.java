@@ -62,7 +62,7 @@ public class UISingleton {
         System.out.println();
         System.out.println("1. Check Out ");
         System.out.println();
-        System.out.println("2. Lost ParkingApplication.Ticket");
+        System.out.println("2. Lost Ticket");
         System.out.println();
         System.out.println("=>_");
     }
