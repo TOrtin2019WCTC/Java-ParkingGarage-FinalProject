@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d403d49-0338-4a11-b90c-71c2c62815f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/PricesAndFees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java" afterDir="false" />
-    </list>
+    <list default="true" id="8d403d49-0338-4a11-b90c-71c2c62815f6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +71,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="-159">
               <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
@@ -240,27 +237,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ParkingApplication" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tortin-u3-ParkingApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tortin-u3-ParkingApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ParkingApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tortin-u3-ParkingApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tortin-u3-ParkingApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ParkingApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="receipt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tortin-u3-ParkingApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tortin-u3-ParkingApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ParkingApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -268,7 +244,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558047592183" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558049685843" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -351,7 +327,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -863,7 +838,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ParkingApplication/receipt/LostTicketReceipt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="-159">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
